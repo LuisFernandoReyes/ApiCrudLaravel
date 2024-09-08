@@ -12,7 +12,7 @@ class NoteRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return TrustProxies;
+        return true;
     }
 
     /**
